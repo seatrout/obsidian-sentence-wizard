@@ -7,3 +7,5 @@ export const WHOLE_SENTENCE =
  * and checklists
  */
 export const LIST_CHARACTER_REGEX = /^\s*(-|\+|\*|\d+\.|>) (\[.\] )?$/;
+export const CLAUSE_DELIMITER_REGEX = /[,;:—]/
+export const COMMA_DELIMITED_CLAUSE = /,.+?,/
